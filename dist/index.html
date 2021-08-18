@@ -5,9 +5,274 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Tailwind Boilerplate</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
 
-  <body class="bg-red-500"></body>
+  <body id="wrap" class="bg-gray-50 pb-16">
+
+    <nav class="z-50 fixed w-full transition duration-150 ease-in-out text-white">
+      <div class="max-w-screen-xl mx-auto px-5 py-4">
+        <ul>
+          <li class="inline-block mr-5"><a href="#">About</a></li>
+          <li class="inline-block mr-5"><a href="#">Speaker</a></li>
+          <li class="inline-block mr-5"><a href="#">Agenda</a></li>
+          <li class="inline-block"><a href="#">Exhibitors</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="w-full bg-gray-800 pb-32 pt-40">
+      <div class="max-w-screen-xl mx-auto px-5 text-white">
+        <p class="pb-5">Friday 30, July 2021 5pm - 6pm</p>
+        <h1 class="text-7xl mb-16 font-semibold">Lean Tactics for Design Systems</h1>
+        <div class="">
+          <input type="email" name="email" placeholder="Enter Email" autocomplete="email" class="p-4 w-96 mt-1 focus:ring-indigo-500 focus:border-indigo-500 inline-block shadow-sm sm:text-sm border-gray-300 rounded-xl mr-2">
+          <button type="submit" class="inline-flex justify-center p-4 border border-transparent shadow-sm text-sm font-medium rounded-xl text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              Attend for free
+          </button>
+          <p class="pt-3 text-gray-400">Already registered? <a class="underline" href="#">Request access link</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-screen-xl mx-auto px-5 text-gray-800 flex flex-wrap py-16">
+
+      <div class="w-8/12 pr-16">
+        <img src="./assets/imgs/current.png" class="pb-16" alt="">
+        <h2 class="text-3xl pb-5 font-semibold">About</h2>
+        <p>
+          Join the 5th edition of the Future of Work 2021 - the world largest remote work trade show. Learn how you, your company and your community can benefit from all the values that flexible work generates. 60+ Speakers, 32 sessions, 4 workshops, networking and virtual expo.
+
+          <br><br>
+          Join the 5th edition of the Future of Work 2021 - the world largest remote work trade show. Learn how you, your company and your community can benefit from all the values that flexible work generates. 60+ Speakers, 32 sessions, 4 workshops, networking and virtual expo.
+          <br><br>
+          Agenda:<br>
+          The importance of design thinking with Dylan Field - CEO of inuit<br>
+          Case studies<br>
+          Design systems in the wild with Connie Yang<br>
+          Follow along workshop - we will be creating out own system
+          <br><br>
+          Guest Speakers:<br>
+          Dylan Field - CEO at Intuit<br>
+          Connie Yang - Design Leader at Stripe
+          <br><br>
+          Sponsors:<br>
+          Figma https://www.figma.com/<br><br>
+          Join the 5th edition of the Future of Work 2021 - the world largest remote work trade show. Learn how you, your company and your community can benefit from all the values that flexible work generates. 60+ Speakers, 32 sessions, 4 workshops, networking and virtual expo.
+        </p>
+
+        <p class="border-b border-solid border-gray-300 pb-16">
+          Join the 5th edition of the Future of Work 2021 - the world largest remote work trade show. Learn how you, your company and your community can benefit from all the values that flexible work generates. 60+ Speakers, 32 sessions, 4 workshops, networking and virtual expo.
+
+          <br><br>
+          Join the 5th edition of the Future of Work 2021 - the world largest remote work trade show. Learn how you, your company and your community can benefit from all the values that flexible work generates. 60+ Speakers, 32 sessions, 4 workshops, networking and virtual expo.
+          <br><br>
+          Agenda:<br>
+          The importance of design thinking with Dylan Field - CEO of inuit<br>
+          Case studies<br>
+          Design systems in the wild with Connie Yang<br>
+          Follow along workshop - we will be creating out own system
+          <br><br>
+          Guest Speakers:<br>
+          Dylan Field - CEO at Intuit<br>
+          Connie Yang - Design Leader at Stripe
+          <br><br>
+          Sponsors:<br>
+          Figma https://www.figma.com/<br><br>
+          Join the 5th edition of the Future of Work 2021 - the world largest remote work trade show. Learn how you, your company and your community can benefit from all the values that flexible work generates. 60+ Speakers, 32 sessions, 4 workshops, networking and virtual expo.
+        </p>
+
+        <h2 class="text-3xl pt-16 pb-5 font-semibold">Speakers</h2>
+
+        <div class="grid grid-flow-col grid-cols-3 grid-rows-3 gap-4 border-b border-solid border-gray-300 pb-16">
+          <div class="border border-solid border-gray-300 p-4 rounded-xl">
+            <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+            <h3 class="font-semibold pt-3 pb-1">Wade Warren</h3>
+            <p class="text-gray-400">CEO at Intuit</p>
+          </div>
+          <div class="border border-solid border-gray-300 p-4 rounded-xl">
+            <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+            <h3 class="font-semibold pt-3 pb-1">Wade Warren</h3>
+            <p class="text-gray-400">CEO at Intuit</p>
+          </div>
+          <div class="border border-solid border-gray-300 p-4 rounded-xl">
+            <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+            <h3 class="font-semibold pt-3 pb-1">Wade Warren</h3>
+            <p class="text-gray-400">CEO at Intuit</p>
+          </div>
+          <div class="border border-solid border-gray-300 p-4 rounded-xl">
+            <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+            <h3 class="font-semibold pt-3 pb-1">Wade Warren</h3>
+            <p class="text-gray-400">CEO at Intuit</p>
+          </div>
+          <div class="border border-solid border-gray-300 p-4 rounded-xl">
+            <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+            <h3 class="font-semibold pt-3 pb-1">Wade Warren</h3>
+            <p class="text-gray-400">CEO at Intuit</p>
+          </div>
+          <div class="border border-solid border-gray-300 p-4 rounded-xl">
+            <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+            <h3 class="font-semibold pt-3 pb-1">Wade Warren</h3>
+            <p class="text-gray-400">CEO at Intuit</p>
+          </div>
+          <div class="border border-solid border-gray-300 p-4 rounded-xl">
+            <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+            <h3 class="font-semibold pt-3 pb-1">Wade Warren</h3>
+            <p class="text-gray-400">CEO at Intuit</p>
+          </div>
+          <div class="border border-solid border-gray-300 p-4 rounded-xl">
+            <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+            <h3 class="font-semibold pt-3 pb-1">Wade Warren</h3>
+            <p class="text-gray-400">CEO at Intuit</p>
+          </div>
+          <div class="border border-solid border-gray-300 p-4 rounded-xl">
+            <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+            <h3 class="font-semibold pt-3 pb-1">Wade Warren</h3>
+            <p class="text-gray-400">CEO at Intuit</p>
+          </div>
+        </div>
+
+        <h2 class="text-3xl pt-16 pb-5 font-semibold">Speakers</h2>
+
+        <div class="grid grid-flow-col grid-cols-3 gap-2">
+          <img src="./assets/imgs/insta.png" alt="">
+          <img src="./assets/imgs/slack.png" alt="">
+          <img src="./assets/imgs/zoom.png" alt="">
+        </div>
+
+      </div>
+
+      <div class="w-4/12 relative">
+        <div id="card" class="w-96 z-10">
+          <div class="bg-white shadow-xl border border-solid border-gray-200 rounded-xl p-8 w-full">
+            <h2 class="text-3xl pb-3 font-semibold">Lean Tactics for Design Systems</h2>
+            <p class="pb-8 text-gray-400">Friday 30, July 2021 5pm - 6pm</p>
+            <img src="./assets/imgs/users.png" class="pb-2" alt="">
+            <p class="pb-8 text-gray-400">3,875 have already registered</p>
+            <input type="email" name="email" placeholder="Enter Email" autocomplete="email" class="p-4 w-full mt-1 focus:ring-indigo-500 focus:border-indigo-500 inline-block shadow-sm sm:text-sm border-gray-300 rounded-xl mr-2 bg-gray-200 mb-3">
+            <button type="submit" class="w-full inline-flex justify-center p-4 border border-transparent shadow-sm text-sm font-medium rounded-xl text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                Attend for free
+            </button>
+          </div>
+          <p class="pt-3 text-gray-400 w-full text-center">Already registered? <a class="underline" href="#">Request access link</a></p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="max-w-screen-xl mx-auto px-5 text-gray-800 flex flex-wrap py-16">
+      <div class="w-full h-96 bg-red-700"></div>
+      <div class="w-full h-96 bg-red-700"></div>
+      <div class="w-full h-96 bg-red-700"></div>
+    </div>
+
+    <div class="max-w-screen-xl mx-auto px-5 py-16">
+
+      <h2 class="text-3xl pb-5 font-semibold">Exhibitors</h2>
+
+      <div class="grid grid-flow-col grid-cols-6 grid-rows-2 gap-4">
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+        <div class="border border-solid border-gray-300 p-4 rounded-xl">
+          <div class="rounded-full bg-gray-300 h-16 w-16"></div>
+          <h3 class="font-semibold pt-3 pb-1">Exhibitor</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-screen-xl mx-auto px-5 py-16">
+      <div class="bg-gray-800 w-full py-16 rounded-xl text-white text-center">
+        <h2 class="text-3xl pb-5">Lean Tactics for Design Systems starts in...</h2>
+        <div id="countdown" class="flex max-w-sm mx-auto py-8"></div>
+        <input type="email" name="email" placeholder="Enter Email" autocomplete="email" class="p-4 w-96 mt-1 focus:ring-indigo-500 focus:border-indigo-500 inline-block shadow-sm sm:text-sm border-gray-300 rounded-xl mr-2">
+        <button type="submit" class="inline-flex justify-center p-4 border border-transparent shadow-sm text-sm font-medium rounded-xl text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            Attend for free
+        </button>
+        <p class="pt-3 text-gray-400">Already registered? <a class="underline" href="#">Request access link</a></p>
+      </div>
+    </div>
+
+    <p class="text-center">Powered by Airfair</p>
+
+  </body>
 
   <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/countdown.jquery.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(window).bind('scroll', function() {
+        if ($(window).scrollTop() > 510 && $(window).scrollTop() < 2695 ){
+          $('#card').addClass('card-fixed');
+          $('#card').removeClass('card-fixed-bottom');
+        }
+        else if ($(window).scrollTop() >= 2695){
+          $('#card').addClass('card-fixed-bottom');
+          $('#card').removeClass('card-fixed');
+        }
+        else {
+          $('#card').removeClass('card-fixed');
+          $('#card').removeClass('card-fixed-bottom');
+        }
+      });
+    });
+
+    $(document).ready(function(){
+      $(window).bind('scroll', function() {
+        if ($(window).scrollTop() > 50 ){
+          $('nav').addClass('nav-fixed');
+        }
+        else {
+          $('nav').removeClass('nav-fixed');
+        }
+      });
+    });
+
+    const cd = new Date().getFullYear() + 1
+    $('#countdown').countdown({
+        year: cd
+    });
+
+  </script>
 </html>

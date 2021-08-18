@@ -1,3 +1,17 @@
-/* 
+/*
     Write your custom CSS here and also abstract your Tailwind css using @apply
 */
+.nav-fixed {
+  color: black!important;
+  @apply bg-gray-50 shadow-xl;
+}
+
+.card-fixed {
+  position: fixed!important;
+  top: 120px;
+}
+
+.card-fixed-bottom {
+  position: absolute!important;
+  bottom: 0;
+}
