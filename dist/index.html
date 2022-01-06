@@ -10,7 +10,7 @@
 
   <body id="wrap" class="bg-gray-50 pb-16">
 
-    <nav class="z-50 fixed w-full transition duration-150 ease-in-out text-white">
+    <!-- <nav class="z-50 fixed w-full transition duration-150 ease-in-out text-white">
       <div class="max-w-screen-xl mx-auto px-5 py-4">
         <ul>
           <li class="inline-block mr-5"><a href="#">About</a></li>
@@ -19,18 +19,18 @@
           <li class="inline-block"><a href="#">Exhibitors</a></li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
 
-    <div class="w-full bg-gray-800 pb-32 pt-40">
-      <div class="max-w-screen-xl mx-auto px-5 text-white">
-        <p class="pb-5">Friday 30, July 2021 5pm - 6pm</p>
-        <h1 class="text-7xl mb-16 font-semibold">Lean Tactics for Design Systems</h1>
-        <div class="">
+    <div style="background:#0E0F10;" class="w-full bg-gray-900 py-24">
+      <div class="max-w-screen-lg mx-auto px-5 text-white text-center">
+        <h1 class="text-7xl mb-8 font-semibold">Webinars but better, <br>for <span id="typewriter"></span></h1>
+        <p class="max-w-xl mx-auto text-gray-400">Create professional, engaging video content, maximize your views and drive the actions that matter to your business</p>
+        <div class="pt-10">
           <input type="email" name="email" placeholder="Enter Email" autocomplete="email" class="p-4 w-96 mt-1 focus:ring-indigo-500 focus:border-indigo-500 inline-block shadow-sm sm:text-sm border-gray-300 rounded-xl mr-2">
           <button type="submit" class="inline-flex justify-center p-4 border border-transparent shadow-sm text-sm font-medium rounded-xl text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-              Attend for free
+              Request access
           </button>
-          <p class="pt-3 text-gray-400">Already registered? <a class="underline" href="#">Request access link</a></p>
+          <p class="pt-3 text-sm text-gray-400">Join our private beta before the official launch</p>
         </div>
       </div>
     </div>
@@ -240,6 +240,7 @@
 
   <script src="./assets/js/main.js"></script>
   <script src="./assets/js/countdown.jquery.js"></script>
+  <script src="./assets/js/core.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
       $(window).bind('scroll', function() {
@@ -273,6 +274,32 @@
     $('#countdown').countdown({
         year: cd
     });
+
+    const typewriter = new Typewriter('#typewriter', {
+      loop: true,
+    });
+
+    typewriter.typeString('<span style="color:#FCF774;">marketers</span>')
+      .pauseFor(1500)
+      .deleteAll()
+      .typeString('<span style="color:#93FFC5;">startups</span>')
+      .pauseFor(1500)
+      .deleteAll()
+      .typeString('<span style="color:#CD47E2;">communities</span>')
+      .pauseFor(1500)
+      .deleteAll()
+      .typeString('<span style="color:#FFA41C;">sales teams</span>')
+      .pauseFor(1500)
+      .deleteAll()
+      .typeString('<span style="color:#4AD8D8;">creators</span>')
+      .pauseFor(1500)
+      .deleteAll()
+      .typeString('<span style="color:#F45050;">event organizers</span>')
+      .pauseFor(1500)
+      .deleteAll()
+      .typeString('<span style="color:#1CB76F;">online learning</span>')
+      .pauseFor(1500)
+      .start();
 
   </script>
 </html>
